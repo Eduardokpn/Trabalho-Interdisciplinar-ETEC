@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>calculadora</title>
+
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/drodown.js" defer></script>
+    <link rel="shortcut icon" href="img/logoIcon.svg" type="image/x-icon">
+</head>
+<body>
+
+    <div class="coach-mark" id="coachMark">
+        <p>
+            Aqui vai uma dica: Após o calculo você pode clicar sobre a equação para ver o passo a passo do calculo
+        </p>
+        <button onclick="fecharCoachMark()">Fechar</button>
+    </div>
+
+
+    <nav class="menu">
+        <div>
+            <div><a href="index.html"><img class="logo-backal" src="img/baskhaIcon.svg" alt=""></a></div>
+        </div>
+        <div>
+            <button id="dropDownBtn" class="dropbtn"></button>
+
+        </div>
+    </nav>
+    <div class="dropdown">
+        <div id="myDropdown" class="dropdown-content">
+            <img class="dropdownImage" src="img/dropdown.svg" alt="">
+            <div class="drpDownTexto">
+                Não é possivel acessar sua conta no momento.
+            </div>
+        </div>
+    </div>
+
+    <div class="centerItens">
+        <div class="calcAlign">
+
+            <div class="logo" id="logo"><a href="index.html"><img src="img/baskhaIcon.svg" alt=""></a></div>
+
+            <div class="internFrame">
+                <span class="x" id="x1Resp">X1 = 0</span>
+                <span class="x" id="x2Resp">X2 = 0</span>
+
+                <input type="text" class="btn" id="aValue" placeholder="Digite A">
+                <input type="text" class="btn" id="bValue" placeholder="Digite B">
+                <input type="text" class="btn" id="cValue" placeholder="Digite C">
+
+                <div class="txt" id="expArit">
+                    <span id="express">Expressão aritimetica</span> <br>
+                    <br>
+                    <span id="delta">Valor delta</span> <br>
+                </div>
+
+                <button class="calcBtn" id="calcBtn"><span class="btnTxt">CALCULAR</span></button>
+
+            </div>
+
+        </div>
+        <div class="info" id="info">Informações</div>
+    </div>
+
+    <div class="page2" id="page2">
+        Não Entende de Baskara e Equaçoes de Segundo Grau ?! <br/>
+        <br/>
+        A gente te Explica!
+    </div>
+
+    <div class="lousa">
+        <div class="lousa_texto">
+            <div id="deltaLousa">
+                Os valores de A, B e C não foram informados
+            </div>
+            <div id="baskLousa">
+
+            </div>
+            <div class="xSideBySide">
+                <div id="x1Pos">
+                </div>
+                <div id="x2Pos">
+                </div>
+            </div>
+            <span id="xResp"></span>
+        </div>
+    </div>
+</body>
+</html>
