@@ -65,3 +65,8 @@ Ambos os arquivos contêm regras de estilo para a aplicação. O `style2.css` in
 
 ### style2.css
 - **`@import url('style.css');`** Importa classes do css como a classe menu e as fontes
+
+![image](https://github.com/user-attachments/assets/98c5d63f-2174-4ef3-ac8a-d922af8e1668)
+![image](https://github.com/user-attachments/assets/8863d145-c839-4e88-9059-086f36459001)
+
+
